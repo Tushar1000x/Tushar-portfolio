@@ -87,10 +87,11 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      {/* Simpler lighting for mobile */}
-      <hemisphereLight intensity={isMobile ? 0.35 : 0.15} groundColor="black" />
+      {/* Basic lighting that works for mobile */}
+      <ambientLight intensity={0.8} />
+      <hemisphereLight intensity={0.35} groundColor="black" />
 
-      {/* Only show spotLight on desktop */}
+      {/* Optional: keep spotLight on all devices */}
       {!isMobile && (
         <spotLight
           position={[-20, 50, 10]}
@@ -102,13 +103,10 @@ const Computers = ({ isMobile }) => {
         />
       )}
 
-      {/* No pointLight on mobile for better perf */}
-      {!isMobile && <pointLight intensity={1} />}
-
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.55 : 0.75} // smaller on mobile
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        scale={isMobile ? 0.7 : 0.75} // was 0.55, now closer to desktop
+        position={isMobile ? [0, -3, -1.5] : [0, -3.25, -1.5]} // raised a bit
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
