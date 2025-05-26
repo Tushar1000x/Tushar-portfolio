@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
-  //  const isMobile = window.innerWidth <= 700;
+ 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
