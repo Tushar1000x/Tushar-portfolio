@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,18 +20,27 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
+import python from "./tech/python.png";
+import iit from "./company/Jammu.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import starbucks from "./company/Samsung.jpg";
+import suraj from "./company/suraj.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
+import carrent from "./funigan.jpg";
+import jobit from "./openCV.jpg";
+import pic1 from "./pic1.png";
+import tripguide from "./captcha.jpg";
+import screen from "./Screenshot (15).png";
+import rps from "./Screenshot (16).png"
+import calc from "./Screenshot (17).png"
+import chatapp from "./chatapp.jpg";
+import ml from "./images.png";
 export {
   logo,
+  ml,
+  rps,
+  calc,
+  chatapp,
   backend,
   creator,
   mobile,
@@ -52,11 +61,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
+  iit,
   shopify,
   starbucks,
-  tesla,
+  suraj,
   carrent,
   jobit,
+  pic1,
+  screen,
   tripguide,
+  python,
 };

@@ -7,22 +7,29 @@ import {
   typescript,
   html,
   css,
+  pic1,
   reactjs,
   redux,
   tailwind,
   nodejs,
   mongodb,
   git,
+  chatapp,
   figma,
+  ml,
   docker,
-  meta,
+  iit,
   starbucks,
-  tesla,
+  suraj,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  python,
+  rps,
+  screen,
+  calc,
 } from "../assets";
 
 export const navLinks = [
@@ -35,9 +42,14 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "education",
+    title: "Education",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
+    
 ];
 
 const services = [
@@ -46,20 +58,24 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "DSA Coder",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "ML developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Adventurer",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "python",
+    icon: python,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -72,18 +88,12 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -95,10 +105,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -116,58 +122,68 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Developer Intern",
+    company_name: "Samsung Data System",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 - june 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Integrated Samsung Bangladesh API with wearable data using Coroutines and a queue-based structure to deliver real-time updates every 5 seconds, improving system reliability by 15%.",
+        "Engineered robust Android features using MVVM, Data Binding, and View Binding; resolved 250+ bugs in Samsung Health App, maintaining a 97 application reliability score.",
+ "Gained hands-on experience with advanced data structures (Graphs, Segment Trees, DP) and collaborated on multiple projects using scalable coding practice.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Teaching Assistant",
+    company_name: "IIT Jammu",
+    icon: iit,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conduct weekly tutorials for 50+ students, resulting in average score improvement.",
+    "Taught core programming concepts, designed practice questions, and supported lab sessions.",
+    "Developed structured learning resources on graph algorithms and dynamic programming patterns.",
     ],
   },
+
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Web developer Intern ",
+    company_name: "Suraj Bore well",
+    icon: suraj,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "june 2022 - july 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gained hands-on experience in HTML, CSS, and JavaScript.",
+      "Collaborated with team members to troubleshoot and debug website issues.",
+      "Acquired foundational skills in web development and user interface design.",
     ],
   },
 ];
+
+
+
+const educations = [
+  {
+    degree: "B.Tech in Computer Engineering",
+    institution: "J.C. Bose University of Science and Technology,YMCA",
+    duration: "2019 - 2023",
+    points: [
+      "Graduated with distinction",
+      "Participated in national coding competitions",
+      "Led the college tech club for 2 years",
+    ],
+  },
+  {
+    degree: "M.Tech in Computer Engineering",
+    institution: "Indian Institute of Technology, Jammu",
+    duration: "2024 - 2026",
+    points: [
+      "Secured 7.21 cgpa",
+      "Member of the debate team",
+    ],
+  },
+];
+
 
 const testimonials = [
   {
@@ -198,58 +214,62 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: " Underwater Image Enhancement using FUnIE-GAN",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " Built a CycleGAN-based model for real-time underwater image enhancement using EUVP dataSet. and used OpenCV, NumPy and trained the model using TensorFlow 2.x, leveraging U-Net architecture for the generator and PatchGAN for the discriminator.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TensorFlow",
         color: "green-text-gradient",
       },
+       {
+        name: "AI",
+        color: "blue-text-gradient",
+      },
       {
-        name: "tailwind",
+        name: "DeepLearning",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Tushar1000x/Deep-Learning-Project/tree/main",
   },
   {
-    name: "Job IT",
+    name: " Automated Face Recognition with Email, WhatsApp Alerts ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " Developed a Face Recognition System with OpenCV for secure authentication.Automated email and WhatsApp alerts upon successful face detection.Deployed AWS EC2 EBS using Terraform for efficient cloud management.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "OpenCV",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Tushar1000x/Automated-Face-Recognition-with-Email-WhatsApp-Alerts/blob/main/Face_Recognition_%E2%80%93_Unlock_Your_Computer_With_Your_Face.ipynb",
   },
   {
-    name: "Trip Guide",
+    name: "DBMS-Based Job Portal",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Built a database-driven portal for registration, job postings, and interview scheduling Designed a responsive UI with seamless authentication authorization.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "SQL",
         color: "green-text-gradient",
       },
       {
@@ -257,9 +277,135 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: pic1,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "Captcha-cracking-using-ML",
+    description:
+      "Captures and processes CAPTCHA images automatically Uses both EasyOCR and Tesseract to improve CAPTCHA solving accuracy Automatically logs in with multiple credentials Retries login attempts until success Saves every CAPTCHA image and OCR result for debugging.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tesseract",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/Tushar1000x/automation",
+  },
+  {
+    name: "Masonry Editing gallery",
+    description:
+      "A simple yet functional web-based photo gallery that allows users to upload, edit, and view images in a clean masonry-style grid layout. Users can perform basic image editing tasks like crop, flip, rotate, and replace images, all directly in the browser. Edited images are automatically saved and synced using Firebase Realtime Database and Storage, ensuring persistence across sessions.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: screen,
+    source_code_link: "https://github.com/Tushar1000x/Masonry_Gallery_Edit",
+  },
+  {
+    name: "Stone Paper Scissor",
+    description:
+      "A fun and interactive Rock Paper Scissors game built using React and styled with CSS. This simple web app lets users play against a computer opponent, with real-time game logic, visual feedback, and a clean, responsive UI.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rps,
+    source_code_link: "https://github.com/Tushar1000x/stone-paper-scissor",
+  },
+  {
+    name: "Calculator",
+    description:
+      "Basic calculator built using React and styled with CSS.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: calc,
+    source_code_link: "https://github.com/Tushar1000x/Simple_Calculator",
+  },
+   {
+    name: "Machine Learning",
+    description:
+      "This repository contains mini assignment projects on machine learning topics like image processing and pattern recognition using various libraries such as OpenCV, scikit-learn, and TensorFlow.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Google colab",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ml,
+    source_code_link: "https://github.com/Tushar1000x/Machine-Learning",
+  },
+   {
+    name: "Chat App",
+    description:
+      "This is a real-time chat app using Socket.io for seamless communication between users. Firebase handles user authentication, authorization, and serves as the database for storing user profiles and chat metadata.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ExpressJs",
+        color: "white-text-gradient",
+      },
+    ],
+    image: chatapp,
+    source_code_link: "https://github.com/Tushar1000x/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies,educations, experiences, testimonials, projects };
