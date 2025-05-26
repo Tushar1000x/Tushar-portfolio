@@ -134,7 +134,7 @@ const experiences = [
     date: "Jan 2023 - june 2023",
     points: [
       " Integrated Samsung Bangladesh API with wearable data using Coroutines and a queue-based structure to deliver real-time updates every 5 seconds, improving system reliability by 15%.",
-        "Engineered robust Android features using MVVM, Data Binding, and View Binding; resolved 250+ bugs in Samsung Health App, maintaining a 97 application reliability score.",
+        "Engineered robust Android features using MVVM, Data Binding, and View Binding; resolved 250+ bugs in Samsung Health App, maintaining a 97% application reliability score.",
  "Gained hands-on experience with advanced data structures (Graphs, Segment Trees, DP) and collaborated on multiple projects using scalable coding practice.",
     ],
   },
@@ -173,9 +173,9 @@ const educations = [
     institution: "J.C. Bose University of Science and Technology,YMCA",
     duration: "2019 - 2023",
     points: [
-      "Graduated with distinction",
-      "Participated in national coding competitions",
-      "Led the college tech club for 2 years",
+      "Graduated with a CGPA of 8.3",
+      "Studied core subjects like DBMS, OS, CN, TOC, and Compiler Design",
+      "Gained practical knowledge of DSA anComputer Architecture",
     ],
   },
   {
@@ -183,8 +183,9 @@ const educations = [
     institution: "Indian Institute of Technology, Jammu",
     duration: "2024 - 2026",
     points: [
-      "Secured 7.21 cgpa",
-      "Member of the debate team",
+      "Pursuing Master’s with a CGPA of 7.86.",
+      "Specialization in Machine Learning and AI.",
+      "Studied subjects like PRML, Image Processing, Algorithms, and Deep Learning.",
     ],
   },
 ];
